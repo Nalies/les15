@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="nl">
+    <head>
+        <meta charset="utf-8"> 
+        <title>Mijn CV</title>
+        <meta name="Contact" content="Contact">
+        <link rel="stylesheet" type="text/css" href="contact.css" />
+    </head>
+
+    <body>
+        <header>
+            <h1>Contactformulier</h1>
+
+            <nav>
+                <a href="index.html"> Home</a>
+                <a href="mijncv.html"> Mijn CV</a>
+                <a href="contact.html"> Contact</a>
+            </nav>  
+        </header>
+
+        <br>
+        <br>
+
+        <p><em>Vul hieronder het contactformulier in. We nemen zo snel mogelijk contact met u op.</em></p>
+        
+        <form id="contactform" action="https://formspree.io/f/xdoqaeko" method="post"></form>
+
+        <fieldset>
+            <legend><b>Persoonsgegevens</b></legend>
+            <table width ="100" border="0">
+                <tbody>
+                    <tr>
+                        <td width="200">Voornaam</td>
+                        <td width="400"><input type="text" name="voornaam"></td>
+                    </tr>
+                    <tr>
+                        <td width="200">Achternaam</td>
+                        <td width="400"><input type="text" name="achternaam"></td>
+                    </tr>
+                    <tr>
+                        <td width="200">E-mailadres</td>
+                        <td width="400"><input type="text" name="e-mailadres"></td>
+                    </tr>
+                    <tr>
+                        <td>Telefoonnummer</td>
+                        <td><input type="tel" name="telefoonnummer"></td>
+                    </tr>
+                    <tr>
+                        <td>Bericht</td>
+                        <td><textarea name ="bericht" name="bericht" rows="7" cols="75"></textarea></td>
+                    </tr>
+                </tbody>
+            </table>
+        </fieldset>
+
+        <br>
+
+        <button type="submit" name="verzendknop"><b>Verzend</b></button>
+
+        <footer>
+            <h5> &#169; Nalies Leal 2024 </h5>
+        </footer>
+
+    </body>
+</html>

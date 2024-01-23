@@ -1,0 +1,63 @@
+/* Stijl voor de header en de footer */
+header {
+    background-color: #5b3a29;
+    width: 100%;
+    height: 60px;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #a3948f;
+    width: 100%;
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+/* Stijl voor titel, menubalk en content */
+h1 {
+    color: white;
+    text-align: center; 
+    padding-top: 10px; 
+    padding-bottom: 10px;
+    margin: 0;
+}
+
+/* Stijl voor de navigatiebalk en -knoppen */
+nav {
+    text-align: center; 
+    background-color: #a3948f; 
+    padding: 10px; 
+}
+
+nav a {
+    color: white; 
+    text-decoration: none; 
+    padding: 10px 20px; 
+    margin-right: 10px; 
+    display: inline-block; 
+    border-radius: 5px; 
+}
+  
+nav a:hover {
+    background-color: #948787; 
+}
+
+/* Stijl voor invoervelden */
+p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Stijl voor body */
+body {
+    background-color: #ebe4e1;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+/* Stijl voor verzendknop */
+button[name="verzendknop"]:hover {
+    background-color: #5b3a29;
+    color: white;
+}
